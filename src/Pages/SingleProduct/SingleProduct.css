@@ -1,0 +1,45 @@
+.singleProductContainer{
+  gap: 50px;
+}
+#root:has(> .singleProductContainer) .headerContainer .Logo-Contain p{
+  color: var(--PColor) !important;
+}
+.singleProductContainer .conainAddCartLandPage{
+  padding-inline: 80px;
+}
+.singleProductContainer .conainAddCartLandPage .productImageContainer{
+  height: 300px;
+  min-width: 300px;
+  width: calc(50% - 80px);
+}
+.singleProductContainer .conainAddCartLandPage .productDetailsContainer{
+  font: normal 22px var(--PFont);
+  width: calc(50% - 80px);
+  min-width: 300px;
+}
+.singleProductContainer .conainAddCartLandPage .productDetailsContainer .productName{
+  font: 600 32px var(--PFont);
+  color: var(--PColor);
+}
+.singleProductContainer .conainAddCartLandPage .productDetailsContainer .spanTitle{
+  font-weight: 600;
+}
+.singleProductContainer .conainAddCartLandPage .productDetailsContainer .oldPrice{
+  color: red;
+  font-size: 32px;
+  text-decoration: line-through;
+}
+.singleProductContainer .conainAddCartLandPage .productDetailsContainer .newPrice{
+  color: green;
+  font-style: italic;
+}
+.singleProductContainer .conainAddCartLandPage .numricContainer button{
+  padding: 3px 10px;
+}
+.singleProductContainer .conainAddCartLandPage .quantityContainerP{
+  align-items: center;
+}
+.singleProductContainer .mainButton svg{
+  width: 32px;
+  fill: white;
+}

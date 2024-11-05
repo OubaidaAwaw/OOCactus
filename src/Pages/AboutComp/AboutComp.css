@@ -1,0 +1,6 @@
+.aboutMainContainer{
+  gap: 50px;
+}
+#root:has(> .aboutMainContainer) .headerContainer .Logo-Contain p{
+  color: var(--PColor) !important;
+}

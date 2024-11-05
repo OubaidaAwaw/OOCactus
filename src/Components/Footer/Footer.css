@@ -1,0 +1,40 @@
+footer{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .Contain-Image-LinkSocial-Logo{
+  position: absolute;
+  bottom:1000px;
+  bottom: -50vw;
+  width: 90vw;
+  height: 80vw;
+  background-color: var(--PColor);
+  border-radius: 50%;
+}
+footer .Contain-Image-LinkSocial-Logo .Top-BackFooter{
+  position: relative;
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Image-Huge{
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  width: 600px;
+  height: 600px;
+}
+footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Logo{
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  font: 900 120px var(--PFont);
+  cursor: default;
+}

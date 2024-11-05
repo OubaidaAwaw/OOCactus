@@ -1,0 +1,82 @@
+.Our-Advantages .Caption-Advantages{
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--PFont);
+  font-size: 60px;
+  font-weight: bolder;
+}
+.Our-Advantages{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.Our-Advantages .Container-Advantages{
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+  .Our-Advantages .Container-Advantages .Image-Back-Container{
+  position: absolute;
+  z-index: -1;
+}
+  .Our-Advantages .Container-Advantages .Image-Back-Container:last-child{
+  bottom: -80px;
+  left: -80px;
+  width: 200px;
+  height: 200px;
+}
+  .Our-Advantages .Container-Advantages .Image-Back-Container:first-child{
+  top: -200px;
+  right: 0;
+  width: 300px;
+  height: 300px;
+}
+.Our-Advantages .Container-Advantages .Back-Circle-Big{
+  position: relative;
+  min-width: 440px;
+  min-height: 440px;
+  border-radius: 50%;
+  border: solid var(--ShadowColor) 2px;
+}
+.Our-Advantages .Container-Advantages .Image-Layout-Advantages{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 80px;
+  max-height: 80px;
+}
+  .Our-Advantages .Container-Advantages .Back-Circle-Big .Image-Layout-Advantages:nth-child(1){
+  bottom: 0;
+  left: -60px;
+  top: auto;
+  rotate: 90deg;
+  scale: 1.7;
+}
+  .Our-Advantages .Container-Advantages .Back-Circle-Big .Image-Layout-Advantages:nth-child(2){
+  left: -50px;
+  width: 60px;
+  height: 60px;
+  rotate: 45deg;
+}
+.Our-Advantages .Container-Advantages .Back-Circle-Big .Back-Circle-Small{
+  width: 380px;
+  height: 380px;
+  border: solid var(--ShadowColor) 2px;
+  border-radius: 50%;
+}
+.Our-Advantages .Container-Advantages .Back-Circle-Big .Back-Circle-Small .Content-Advantage{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: var(--PColor);
+  color: var(--WColor);
+  text-align: center  ;
+  font: 500 30px var(--PFont);
+}

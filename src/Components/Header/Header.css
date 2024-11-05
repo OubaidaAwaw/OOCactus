@@ -1,0 +1,106 @@
+nav{
+  width: 100vw;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  padding-inline: 50px;
+}
+nav .Logo-Contain p{
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: var(--PFont);
+  letter-spacing: 2px;
+  color: var(--WColor);
+  margin-left: 25px;
+  cursor: default;
+}
+nav .Links-Pages ul{
+  display: flex;
+  list-style-type: none;
+  gap: 45px;
+}
+nav .Links-Pages ul li{
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  font-family: var(--PFont);
+}
+nav .Links-Pages ul li a{
+  position: relative;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  text-decoration: none;
+  outline: none;
+}
+nav .Links-Pages ul li a::after{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  content: "";
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transition: 0.5s;
+  transition-delay:0.1s ;
+  height: 5px;
+  background-color: var(--PColor);
+}
+nav .Links-Pages ul li a:hover::after{
+  transform: scaleX(1);
+}
+nav .Contain-Call-Number .BtnCall-Number{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+nav .BtnCall-Number .BtnCall:hover svg{
+  fill: var(--WColor);
+}
+nav .BtnCall-Number .BtnCall svg{
+  fill: var(--PColor);
+  width: 22px;
+}
+nav .BtnCall-Number .BtnCall{
+  border-radius: 50% ;
+  -webkit-border-radius: 50% ;
+  padding: 15px;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  text-decoration: none;
+  outline: none;
+  color: var(--PColor);
+  font-family: var(--PFont);
+  font-size: 22px;
+  position: relative;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  background-color: var(--WColor);
+}
+nav .BtnCall-Number .BtnCall:hover{
+  background-color: var(--PColor);
+}
+nav .BtnCall-Number .BtnCall span{
+  position: absolute;
+  border-radius: 50%;
+  width: 15px;
+  padding: 8px;
+  height: 15px;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  color: var(--WColor);
+  background-color: red;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

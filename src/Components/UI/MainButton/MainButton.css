@@ -1,0 +1,25 @@
+.mainButton{
+  padding: 10px 30px;
+  color: var(--WColor);
+  background-color: var(--PColor);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  font-family: var(--PFont);
+  font-size: 30px;
+  font-weight: bolder;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+}
+.mainButton:hover{
+  opacity: 0.8;
+}

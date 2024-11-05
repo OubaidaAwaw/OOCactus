@@ -1,0 +1,310 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --PColor:#1cbfa2;
+  --WColor: #ffffff;
+  --ShadowColor: hsl(60deg 1.2% 83.73%);
+  --PFont:monospace;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Center,
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+button:disabled{
+  color: #333 !important;
+}
+button:disabled svg{
+  fill: #333 !important;
+}
+.gap10{
+  display: flex;
+  gap: 10px;
+}
+.gap20{
+  display: flex;
+  gap: 20px;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.secondryBtn{
+  background-color: transparent !important;
+  color: black !important;
+  border: black solid 5px !important;
+  font-size: 24px !important;
+}
+.between{
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width:1300px){
+  footer .Contain-Image-LinkSocial-Logo .Top-BackFooter{
+      align-items: center;
+  }
+
+  footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Logo{
+      position: relative;
+  }
+  footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Image-Huge{
+      bottom: 0;
+      right: -300px;
+      rotate: -30deg;
+  }
+  .AboutUs-Information{
+      align-items: center;
+  }
+  .AboutUs-Information .Caption-AboutUs{
+      position: relative;
+      width:100%;
+      text-align: center;
+      inset: auto;
+      margin-bottom: 60px;
+  }
+  .AboutUs-Information .Contain-CircleImage-InfoAboutUS .Cactus-Image-Layout{
+      margin: 0 0 0 -200px;
+  }
+  .AboutUs-Information .Caption-AboutUs span{
+      position: relative;
+  }
+  .AboutUs-Information .Caption-AboutUs span::before{
+      left: -70px;
+  }
+  .AboutUs-Information .Contain-InfoAboutus .Info::before{
+      top: 25%;
+  }
+    .AboutUs-Information .Contain-InfoAboutus{
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      gap: 20px;
+  }
+    .AboutUs-Information .Contain-InfoAboutus .Info{
+      position: relative;
+      inset: auto;
+  }
+    .Our-Advantages .Container-Advantages .Image-Back-Container:first-child{
+      width: 200px;
+      height: 200px;
+      top: 0;
+  }
+    .Our-Advantages .Container-Advantages .Back-Circle-Big .Image-Layout-Advantages:nth-child(1){
+      top: -110px;
+      right: auto;
+      bottom: auto;
+      left: auto;
+  }
+}
+@media only screen and (max-width:1050px){
+    footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Links-Social{
+      position: absolute;
+      top: -150px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form{
+      width: 700px;
+      padding-inline: 20px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form input{
+      width: calc(100% - 40px);
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Caption-RequestForm{
+      height: auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center ;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout{
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0;
+  }
+    .Container-Leave-Request{
+      padding: 0;
+  }
+    .Container-Leave-Request .Cactus-Image-Layout{
+      display: none;
+  }
+    .Our-Advantages .Container-Advantages .Back-Circle-Big .Image-Layout-Advantages:nth-child(1){
+      display: none;
+  }
+  .heroSection .Cactus-Image-Layout .Back-Circle::after,
+  .heroSection .Cactus-Image-Layout .Back-Circle::before{
+      scale: 0.8;
+  }
+  .heroSection .Cactus-Image-Layout .Back-Circle::after{
+      bottom: -155px;
+  }
+  .heroSection .Cactus-Image-Layout .Back-Circle::before{
+      bottom: -110px;
+  }
+  .heroSection .Cactus-Image-Layout{
+      position: relative;
+  }
+  .heroSection{
+      height: auto;
+      width: 100vw;
+      align-items: center;
+  }
+  .heroSection .Text-Intro::before{
+      width: 575px;
+      height: 575px;
+      left: -175px;
+      top: -125px;
+  }
+  .heroSection .SubmitBtn-CatalogBtn{
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      gap: 30px;
+      margin: 0;
+  }
+}
+@media only screen and (min-width:1500px) {
+  .heroSection .Cactus-Image-Layout .Back-Circle::after{
+      bottom: -85px;
+  }
+  .heroSection .Cactus-Image-Layout .Back-Circle::before{
+      bottom: -40px;
+  }
+}
+@media only screen and (max-width:725px){
+    footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Logo{
+      font-size: 80px;
+      margin: 0 100px 40px 0;
+  }
+    footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Image-Huge{
+      width: 400px;
+      height: 400px;
+      right: -200px;
+      bottom: 100px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Caption-RequestForm{
+      font-size: 30px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button:first-child{
+      padding-inline: 10px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button,
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button:first-child{
+      padding: 15px 30px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button:last-child{
+      padding-inline: 20px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form{
+      width: 100%;
+  }
+    .Our-Advantages .Container-Advantages .Image-Back-Container:first-child{
+      width: 100px;
+      height: 100px;
+      top: 100px;
+  }
+    .Our-Advantages .Container-Advantages .Back-Circle-Big .Image-Layout-Advantages:nth-child(2){
+      width: 100px;
+      height: 100px;
+      top: -70px;
+      left: 0;
+  }
+  .heroSection .Cactus-Image-Layout .Back-Circle .Container{
+      border-bottom-right-radius: 50% 160px;
+      border-bottom-left-radius: 50% 160px;
+  }
+  .heroSection .Text-Intro{
+      font-size: 55px;
+      width: 100%;
+      min-width: 400px;
+      height: 300px;
+      justify-content: flex-end;
+  }
+  .heroSection .Text-Intro::before{
+      left: -330px;
+  }
+  .heroSection{
+      flex-wrap: nowrap;
+  }
+    .AboutUs-Information .Contain-InfoAboutus .Info{
+      width: 425px;
+      font-size: 28px;
+  }
+}
+@media only screen and (max-width:500px){
+    footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Footer-Logo{
+      font-size: 60px;
+      margin-bottom: 80px;
+  }
+    footer .Contain-Image-LinkSocial-Logo .Top-BackFooter .Links-Social{
+      width: 150px;
+      height: 70px;
+  }
+    .Reviews .Contain-Cards-Reviews .Card-Review{
+      width: 325px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave{
+      gap: 10px;
+      width: 100%;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button{
+      padding: 10px 5px;
+      width: auto;
+      font-size: 22px;
+  }
+    .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form input{
+      padding: 25px 30px;
+  }
+    .Our-Advantages{
+    padding-top: 200px;
+  }
+    .Our-Advantages .Caption-Advantages{
+      font-size: 45px;
+      
+  }
+    .AboutUs-Information .Contain-InfoAboutus .Info{
+      width: 300px;
+      font-size: 22px;
+  }
+    .AboutUs-Information .Contain-CircleImage-InfoAboutUS .Cactus-Image-Layout{
+      margin: 0 0 0 -100px;
+  }
+  .heroSection .SubmitBtn-CatalogBtn .SubmitBtn{
+      width: 330px;
+      font-size: 20px;
+  }
+  .heroSection .Text-Intro{
+      margin-left: 20px;
+      font-size: 40px;
+      width: 350px;
+  }
+  .heroSection .Text-Intro::before{
+      left: -390px;
+  }
+}

@@ -1,0 +1,25 @@
+.mainHomeContainer{
+  gap: 100px;
+}
+.mainHomeContainer .swiper-button-prev,
+.mainHomeContainer .swiper-button-next{
+  right: 0 !important; 
+}
+.productsSideContainer{
+  width: 100%;
+}
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
+}
+.swiper-wrapper{
+  padding: 40px 0!important;
+}
+.swiper{
+  width: 95%;
+  padding: 0 30px;
+}
+.swiper-pagination-bullet{
+  width: 15px !important;
+  height: 15px !important;
+}

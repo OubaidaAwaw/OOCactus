@@ -1,0 +1,15 @@
+.linkBackWards{
+  margin: 20px 0 20px 80px;
+  font: 600 20px var(--PFont);
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.linkBackWards:hover{
+  text-decoration: underline;
+}
+.linkBackWards svg{
+  fill: var(--PColor);
+  width: 20px;
+}

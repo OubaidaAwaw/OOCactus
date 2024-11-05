@@ -1,0 +1,170 @@
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Back-Circle-Big{
+  position: relative;
+  min-width: 440px;
+  min-height: 440px;
+  border-radius: 50%;
+  border: solid var(--ShadowColor) 2px;
+  margin-bottom: 30px;
+  max-width: 440px;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Back-Circle-Big .Back-Circle-Small{
+  width: 380px;
+  height: 380px;
+  border: solid var(--ShadowColor) 2px;
+  border-radius: 50%;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Back-Circle-Big .Back-Circle-Small .Content-Advantage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--PColor);
+    color: var(--WColor);
+    text-align: center  ;
+    font: 500 30px var(--PFont) ;
+}
+.Container-Leave-Request{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 200px;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Caption-RequestForm{
+  display: block;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form{
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  width: 100%;
+  gap: 30px;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form input{
+  height: 40px;
+  width: 700px;
+  font: 900 35px var(--PFont);
+  padding: 30px 40px ;
+  border-radius: 25px;
+  border: solid black 4px;
+  outline: none;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button{
+  border-width: 4px;
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+}
+  .Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button:first-child{
+  border: none;
+  background-color: var(--PColor);
+  padding-inline: 70px;
+}
+
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Back-Circle-Big img{
+  width: 100%;
+  height: 100%;
+}
+.Container-Leave-Request .Cactus-Image-Layout{
+  top: 200px;
+  right: -15%;
+}
+.Container-Leave-Request .Cactus-Image-Layout .Back-Circle .Container .Intro-Image{
+  bottom: -150px;
+}
+.Container-Leave-Request .Cactus-Image-Layout{
+  position: absolute;
+  max-width: 500px;
+  min-width: 350px;
+  width: calc(100vw / 3);
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle::before{
+  position: absolute;
+  content: "";
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  z-index: 0;
+  border: 3px solid var(--ShadowColor);
+  bottom:  calc((calc(100vw / 3) - 580px) / 2);
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle::after{
+  position: absolute;
+  content: "";
+  width: 670px;
+  height: 670px;
+  border-radius: 50%;
+  z-index: -1;
+  border: 3px solid var(--ShadowColor);
+  bottom: calc((calc(100vw / 3) - 670px) / 2);
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle .Container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-bottom-left-radius: 50%  calc((100vw / 3) / 2);
+  border-bottom-right-radius: 50% calc((100vw / 3) / 2);
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle .Container .Contain-Image-Layout{  position: absolute;
+  width: 100%;
+  max-height: 500px;
+  min-height: 350px;
+  height: calc(100vw / 3);
+  bottom: 0;
+  border-radius: 50%;
+  background: var(--PColor);
+}
+  .Container-Leave-Request .Cactus-Image-Layout .Back-Circle .Container .Intro-Image{  position: absolute;
+  width:100%;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Request-Form .Contain-BtnResetSubmit-Leave button{
+  padding: 10px 30px;
+  font-size: 30px;
+  border-radius: 22px;
+  font-weight: bolder;
+}
+.Container-Leave-Request .Contain-RequestForm-ImageLayout .Contian-RequestForm .Caption-RequestForm{
+  width: 100%;
+  height: 110px;
+  font-family: var(--PFont);
+  font-size: 60px;
+  font-weight: bolder;
+}

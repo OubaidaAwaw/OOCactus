@@ -1,0 +1,19 @@
+.productsPageContainer{
+  gap: 50px;
+  position: relative;
+}
+#root:has(> .productsPageContainer) .headerContainer .Logo-Contain p{
+  color: var(--PColor) !important;
+}
+.productsPageContainer .productsWrapperRandowm{
+  padding-inline: 60px;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 50px;
+}
+.h1Products{
+  padding-inline: 80px;
+  font-family: var(--PFont);
+  cursor: default;
+}
+
